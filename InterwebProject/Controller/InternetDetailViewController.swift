@@ -50,7 +50,8 @@ public class InternetDetailViewController: UIViewController
         }
     }
     
-    public override func viewDidLoad() {
+    public override func viewDidLoad()
+    {
         super.viewDidLoad()
         
         updateView()
@@ -59,12 +60,18 @@ public class InternetDetailViewController: UIViewController
     
     private func loadURL(webAddress: String) -> Void
     {
-        
+        let currentURL = URL(string: webAddress)
+        let currentWebRequest = URLRequest(url: currentURL!)
+        webViewer.load(currentWebRequest)
     }
     
     private func loadPDF() -> Void
     {
-        
+        if let contentPDF = Bundle.main.url(forResource: "<PDF name here>", withExtension: "pdf", subdirectory: nil, localization: nil)
+        {
+            let requestedPDF = NSURLRequest(url: contentPDF)
+            webViewer.load(requestedPDF as URLRequest)
+        }
     }
 
 }
