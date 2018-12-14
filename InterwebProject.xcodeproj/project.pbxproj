@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A612239F21C43D9A005610C9 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A612239E21C43D9A005610C9 /* InternetDetailViewController.swift */; };
 		A61223A121C443BC005610C9 /* cyberchase were movin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A61223A021C443BC005610C9 /* cyberchase were movin.pdf */; };
+		A61223A321C44593005610C9 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61223A221C44593005610C9 /* InternetMasterViewController.swift */; };
 		A622F85121C1AC080005214D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A622F85021C1AC080005214D /* AppDelegate.swift */; };
 		A622F85621C1AC080005214D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A622F85421C1AC080005214D /* Main.storyboard */; };
 		A622F85821C1AC140005214D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A622F85721C1AC140005214D /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		A612239E21C43D9A005610C9 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		A61223A021C443BC005610C9 /* cyberchase were movin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "cyberchase were movin.pdf"; sourceTree = "<group>"; };
+		A61223A221C44593005610C9 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		A622F84D21C1AC080005214D /* InterwebProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterwebProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A622F85021C1AC080005214D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A622F85521C1AC080005214D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				A612239E21C43D9A005610C9 /* InternetDetailViewController.swift */,
+				A61223A221C44593005610C9 /* InternetMasterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A61223A321C44593005610C9 /* InternetMasterViewController.swift in Sources */,
 				A612239F21C43D9A005610C9 /* InternetDetailViewController.swift in Sources */,
 				A622F85121C1AC080005214D /* AppDelegate.swift in Sources */,
 			);
