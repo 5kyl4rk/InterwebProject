@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A612239F21C43D9A005610C9 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A612239E21C43D9A005610C9 /* InternetDetailViewController.swift */; };
 		A622F85121C1AC080005214D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A622F85021C1AC080005214D /* AppDelegate.swift */; };
-		A622F85321C1AC080005214D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A622F85221C1AC080005214D /* ViewController.swift */; };
 		A622F85621C1AC080005214D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A622F85421C1AC080005214D /* Main.storyboard */; };
 		A622F85821C1AC140005214D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A622F85721C1AC140005214D /* Assets.xcassets */; };
 		A622F85B21C1AC140005214D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A622F85921C1AC140005214D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A612239E21C43D9A005610C9 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		A622F84D21C1AC080005214D /* InterwebProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterwebProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A622F85021C1AC080005214D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A622F85221C1AC080005214D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A622F85521C1AC080005214D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A622F85721C1AC140005214D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A622F85A21C1AC140005214D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		A622F86421C1AC480005214D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A622F85221C1AC080005214D /* ViewController.swift */,
+				A612239E21C43D9A005610C9 /* InternetDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -159,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A622F85321C1AC080005214D /* ViewController.swift in Sources */,
+				A612239F21C43D9A005610C9 /* InternetDetailViewController.swift in Sources */,
 				A622F85121C1AC080005214D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,7 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = InterwebProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InterwebProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,7 +324,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = InterwebProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InterwebProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
