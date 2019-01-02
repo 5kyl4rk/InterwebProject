@@ -53,7 +53,7 @@
         <!--Root View Controller-->
         <scene sceneID="UcP-eN-c8K">
             <objects>
-                <tableViewController clearsSelectionOnViewWillAppear="NO" id="2sH-Mm-qxt" sceneMemberID="viewController">
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="2sH-Mm-qxt" customClass="InternetMasterViewController" customModule="InterwebProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="wVm-qM-vMP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
