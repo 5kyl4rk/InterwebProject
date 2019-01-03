@@ -73,7 +73,7 @@ class InternetMasterViewController: UITableViewController
     }
 
     public override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         
         let rowText = internetTopics[indexPath.row]
         cell.textLabel!.text = rowText
@@ -87,8 +87,7 @@ class InternetMasterViewController: UITableViewController
         internetDetail?.detailTitle = internetTopics[indexPath.row]
         if(internetDetail != nil)
         {
-            splitViewController?.showDetailViewController(internetDetail!, sender: nil
-            )
+            splitViewController?.showDetailViewController(internetDetail!, sender: nil)
         }
     }
 

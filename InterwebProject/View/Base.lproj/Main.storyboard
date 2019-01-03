@@ -45,6 +45,10 @@
                         <viewLayoutGuide key="safeArea" id="d7Z-u3-GvN"/>
                     </view>
                     <navigationItem key="navigationItem" id="9SD-LS-jJd"/>
+                    <connections>
+                        <outlet property="screenTitle" destination="4s1-6k-EQM" id="Shp-ls-51K"/>
+                        <outlet property="webViewer" destination="kaa-o0-2ON" id="g0p-5V-K0A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fzz-Yc-FUs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -59,7 +63,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="jnr-lj-1As">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="jnr-lj-1As">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jnr-lj-1As" id="tf5-KR-xrc">
